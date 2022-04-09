@@ -1,2 +1,2 @@
 # GuessMyNumber
-DOM manipulation mini project
+DOM manipulation mini project https://egaprasetyo.github.io/GuessMyNumber/
