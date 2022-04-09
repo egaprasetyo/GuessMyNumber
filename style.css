@@ -1,0 +1,107 @@
+@import url('https://fonts.googleapis.com/css2?family=Righteous&display=swap');
+
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body{
+    padding: 40px 200px;
+    font-family: 'Righteous', cursive;
+    /* overflow: hidden; */
+    background-color: #0F111A;
+    /* background-color: #55AA3E; */
+}
+
+.container{
+    padding: 0 50px;
+    border: 5px #fff solid;
+}
+
+header{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    height: 80px;
+    color: #fff;
+}
+
+button{
+    font-family: 'Righteous', cursive;
+    background-color: #fff;
+    outline: none;
+    border: none;
+    padding: 10px 30px;
+    cursor: pointer;
+    font-size: 1.2rem;
+}
+
+.content{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    padding: 20px;
+}
+
+h1{
+    color: #fff;
+    text-align: center;
+    font-size: 3rem;
+    margin-bottom: 16px;
+}
+
+.number{
+    text-align: center;
+    font-size: 2rem;
+    background-color: #fff;
+    width: 100px;
+    height: 60px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+main{
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    height: 300px;
+    color: #fff;
+}
+
+.main-left{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    gap: 20px;
+}
+
+.main-right p{
+    font-size: 1.5rem;
+}
+
+.main-right .label-score{
+    margin: 10px 0;
+}
+
+input::-webkit-outer-spin-button,
+input::-webkit-inner-spin-button {
+  -webkit-appearance: none;
+  margin: 0;
+}
+
+/* Firefox */
+input[type=number] {
+  -moz-appearance: textfield;
+  height: 70px;
+  text-align: center;
+  font-size: 2.5rem;
+  max-width: 180px;
+  background-color: transparent;
+  border: 4px #fff solid;
+  color: #fff;
+  font-family: 'Righteous', cursive;
+}
